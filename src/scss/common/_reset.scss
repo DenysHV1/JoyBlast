@@ -2,16 +2,18 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -38,6 +40,9 @@ a {
 
 button {
   cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
 
 img {

@@ -1,0 +1,35 @@
+@import './header.css';
+@import './benefits.css';
+@import './description.css';
+@import './faq.css';
+@import './gallery.css';
+@import './hero.css';
+@import './reviews.css';
+@import './footer.css';
+@import './uniqueness.css';
+@import './pages.css';
+
+:root {
+  background-color: #214067;
+  font-family: "Lora", serif;
+  color: #FFFCE4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 360px;
+  min-width: 320px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 25px;
+  }
+}
