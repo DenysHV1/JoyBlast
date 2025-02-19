@@ -1,3 +1,5 @@
+@import './reset.css';
+
 @import './header.css';
 @import './benefits.css';
 @import './description.css';
@@ -8,11 +10,14 @@
 @import './footer.css';
 @import './uniqueness.css';
 @import './pages.css';
+@import './scroll-up.css';
+
+
 
 :root {
   background-color: #214067;
   font-family: "Lora", serif;
-  color: #FFFCE4; 
+  color: #FFFCE4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,13 +28,11 @@
 .container {
   max-width: 360px;
   min-width: 320px;
-  padding: 0 10px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    padding: 0 25px;
   }
 }
