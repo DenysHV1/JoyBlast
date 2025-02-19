@@ -1,0 +1,130 @@
+.hero {
+  margin-top: 100px;
+}
+
+.hero-inner {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-img-container {
+  max-width: 281px;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.hero-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-title {
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  margin-bottom: 12px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero-text {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  max-width: 283px;
+  margin-bottom: 16px;
+}
+
+.hero-link {
+  background: linear-gradient(180deg, #0fd100 0%, #086b00 71%);
+  width: 279px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  transition: transform 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hero-link:hover {
+  transform: scale(1.04);
+}
+
+.hero-link_img {
+  width: 19px;
+  height: 22px;
+}
+
+.hero-link_text {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25.6px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    margin-top: 176px;
+  }
+
+  .hero-inner {
+    padding: 0 60px;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .hero-img-container {
+    max-width: 528px;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+
+  .hero-info-container {
+    align-items: flex-start;
+    align-self: flex-end;
+  }
+
+  .main-title {
+    font-size: 100px;
+    line-height: 100px;
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .hero-text {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 527px;
+    margin-bottom: 72px;
+    text-align: start;
+  }
+
+  .hero-link {
+    width: 495px;
+    height: 71px;
+    border-radius: 24px;
+  }
+
+  .hero-link_img {
+    width: 25px;
+    height: 27px;
+  }
+}
