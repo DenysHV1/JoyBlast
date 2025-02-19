@@ -1,0 +1,192 @@
+.benefits {
+  margin-top: 60px;
+}
+
+.benefits-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.benefits_title {
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+}
+
+.benefits-list {
+  position: relative;
+  width: 281px;
+  height: 1219px;
+  background-image: url(../img/benefits/benefits-arrow-mobile-1.png),
+    url(../img/benefits/benefits-arrow-mobile-2.png),
+    url(../img/benefits/benefits-arrow-mobile-3.png),
+    url(../img/benefits/benefits-arrow-mobile-4.png),
+    url(../img/benefits/benefits-arrow-mobile-5.png);
+  background-size: 213px 190px, 164px 119px, 136px 152px, 130px 161px,
+    129px 129px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 63px -10px, 22px 251px, 98px 410px, 48px 615px,
+    110px 843px;
+}
+
+.benefits-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 130px;
+  position: absolute;
+}
+
+.benefits-item_img {
+  width: 92px;
+  height: 92px;
+  margin-bottom: 12px;
+}
+
+.benefits-item_title {
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-shadow: -2px -2px 0 rgba(122, 5, 7, 1), 2px -2px 0 rgba(122, 5, 7, 1),
+    -2px 2px 0 rgba(122, 5, 7, 1), 2px 2px 0 rgba(122, 5, 7, 1);
+  color: rgba(249, 242, 187, 1);
+}
+
+.benefits-item_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 252, 228, 1);
+}
+
+/* positions */
+.benefits-list-item-1 {
+  top: 0;
+  left: 0;
+}
+
+.benefits-list-item-2 {
+  top: 189px;
+  right: 0;
+}
+
+.benefits-list-item-3 {
+  top: 368px;
+  left: 0;
+}
+
+.benefits-list-item-4 {
+  bottom: 0;
+  right: 0;
+}
+
+.benefits-list-item-5 {
+  top: 788px;
+  left: 0;
+}
+
+.benefits-list-item-6 {
+  top: 572px;
+  right: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    margin-top: 120px;
+  }
+
+  .benefits-inner {
+    gap: 48px;
+  }
+
+  .benefits_title {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .benefits-list {
+    width: 1124px;
+    height: 892px;
+    background-image: url(../img/benefits/benefits-arrow-1.png),
+      url(../img/benefits/benefits-arrow-2.png),
+      url(../img/benefits/benefits-arrow-3.png),
+      url(../img/benefits/benefits-arrow-4.png),
+      url(../img/benefits/benefits-arrow-5.png);
+    background-size: 319px 164px, 334px 251px, 142px 389px, 288px 131px,
+      431px 372px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 245px 34px, 608px 25px, 967px 160px, 548px 493px,
+      62px 454px;
+  }
+
+  .benefits-list-item {
+    max-width: 285px;
+  }
+
+  .benefits-item_img {
+    width: 126px;
+    height: 126px;
+    margin-bottom: 20px;
+  }
+
+  .benefits-item_title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .benefits-item_text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* positions */
+  .benefits-list-item-1 {
+    top: 52px;
+    left: 53px;
+    max-width: 257px;
+  }
+
+  .benefits-list-item-2 {
+    top: 210px;
+    right: 444px;
+    max-width: 252px;
+  }
+
+  .benefits-list-item-3 {
+    top: 106px;
+    left: 825px;
+    max-width: 252px;
+  }
+
+  .benefits-list-item-4 {
+    bottom: 241px;
+    right: 730px;
+    max-width: 264px;
+  }
+
+  .benefits-list-item-5 {
+    top: 634px;
+    left: 428px;
+    max-width: 274px;
+  }
+
+  .benefits-list-item-6 {
+    top: 472px;
+    right: 78px;
+    max-width: 285px;
+  }
+}
