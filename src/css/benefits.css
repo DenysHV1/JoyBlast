@@ -1,5 +1,6 @@
 .benefits {
   margin-top: 60px;
+  scroll-margin-top: 70px;
 }
 
 .benefits-inner {
@@ -107,6 +108,7 @@
 @media screen and (min-width: 1200px) {
   .benefits {
     margin-top: 120px;
+    scroll-margin-top: 120px;
   }
 
   .benefits-inner {
