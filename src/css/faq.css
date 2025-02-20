@@ -1,0 +1,138 @@
+.faq {
+  scroll-margin-top: 0px;
+  padding-top: 60px;
+}
+
+.faq-inner {
+  background-image: url(../img/faq/faq-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 24px;
+  border: 5px solid rgba(252, 200, 15, 1);
+  padding: 27.5px 18px;
+}
+
+.faq_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.faq-item {
+  background-color: rgba(249, 212, 184, 1);
+  padding: 16.5px 27.5px;
+  border-radius: 24px;
+  width: 100%;
+}
+
+.faq-question-button-js {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.faq_question {
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+  text-align: start;
+}
+
+.faq-question_svg {
+  fill: none;
+  stroke: black;
+  width: 7px;
+  height: 14px;
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(51, 49, 50, 1);
+  margin-left: 5px;
+}
+
+.faq-answer.open {
+  max-height: 500px;
+  transition: max-height 700ms cubic-bezier(1, 0.5, 0.5, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(51, 49, 50, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .faq {
+    scroll-margin-top: -12px;
+    padding-top: 120px;
+  }
+
+  .faq-inner {
+    background-image: url(../img/faq/faq-1x.jpg);
+    padding: 58px 152px;
+  }
+
+  .faq_list {
+    gap: 24px;
+  }
+
+  .faq-item {
+    padding: 21.7px 39px;
+  }
+
+  .faq-question-button-js {
+    margin-bottom: 0px;
+  }
+
+  .faq_question {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .faq-answer {
+    font-size: 20px;
+    line-height: 25.6px;
+  }
+
+  .faq-answer.open {
+    font-size: 20px;
+    line-height: 25.6px;
+  }
+
+  .faq-question_svg {
+    width: 11px;
+    height: 21px;
+  }
+
+  .svg-container {
+    width: 50.6px;
+    height: 50.6px;
+    min-width: 50.6px;
+  }
+}
