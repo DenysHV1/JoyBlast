@@ -1,5 +1,6 @@
 .description {
   margin-top: 60px;
+  scroll-margin-top: 70px;
 }
 
 .description-inner {
@@ -42,6 +43,7 @@
 @media screen and (min-width: 1200px) {
   .description {
     margin-top: 120px;
+    scroll-margin-top: 140px;
   }
 
   .description-inner {
