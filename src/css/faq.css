@@ -79,7 +79,7 @@
 
 .faq-answer.open {
   max-height: 500px;
-  transition: max-height 700ms cubic-bezier(1, 0.5, 0.5, 1);
+  transition: max-height 500ms cubic-bezier(1, 0.5, 0.5, 1);
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
