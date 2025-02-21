@@ -1,0 +1,149 @@
+.conditions-section {
+  padding: 40px 20px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 36px;
+}
+
+img {
+  width: 33px;
+  height: 33px;
+}
+
+.back-link img {
+  margin-right: 8px;
+}
+
+.title {
+  text-align: left;
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  margin-bottom: 8px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.mr {
+  margin-bottom: 8px;
+}
+
+.conditions {
+  margin-bottom: 24px;
+}
+
+.condition-list {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.changes-conditions {
+  margin-bottom: 24px;
+}
+
+.info {
+  margin-top: 8px;
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .conditions-section {
+    padding: 40px 60px;
+  }
+
+  .back-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 66px;
+  }
+
+  img {
+    width: 33px;
+    height: 33px;
+  }
+
+  .back-link img {
+    margin-right: 20px;
+  }
+
+  .title-first {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 24px;
+  }
+
+  .title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 24px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .mr {
+    margin-bottom: 11px;
+  }
+
+  .conditions {
+    margin-bottom: 60px;
+  }
+
+  .condition-list {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .changes-conditions {
+    margin-bottom: 60px;
+  }
+
+  .info {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,402 @@
+  .policy-section {
+    padding: 40px 20px;
+  }
+
+  .policy-title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .back-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 36px;
+  }
+
+  .back-link img {
+    margin-right: 8px;
+  }
+
+  .privacy-policy {
+    margin-bottom: 24px;
+  }
+
+  .title-h2 {
+    margin-bottom: 8px;
+  }
+
+  .policy-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .info-and-use {
+    margin-bottom: 24px;
+  }
+
+  .info-title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .info-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 8px;
+  }
+
+  .info-text {
+    margin-bottom: 8px;
+  }
+
+  .third-title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .acces-title {
+    margin-bottom: 8px;
+  }
+
+  .application-list {
+    margin-bottom: 8px;
+    text-decoration: underline;
+  }
+
+  .acces-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 20px;
+  }
+
+  .acces {
+    margin-bottom: 24px;
+  }
+
+  .opt-out {
+    margin-bottom: 24px;
+  }
+
+  .opt-out-title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .data-policy {
+    margin-bottom: 24px;
+  }
+
+  .data-policy-title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .children-title {
+    /* display: flex;
+    justify-content: center; */
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .children {
+    margin-bottom: 24px;
+  }
+
+  .security-title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .security {
+    margin-bottom: 8px;
+  }
+
+  .title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 8px;
+  }
+
+  .mb {
+    margin-bottom: 24px;
+  }
+
+  .info {
+    margin-top: 8px;
+  }
+
+
+
+
+
+
+
+  @media screen and (min-width: 1200px) {
+    .policy-section {
+      padding: 40px 60px;
+    }
+
+    .policy-title {
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 100px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .back-link {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      text-decoration: none;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 60px;
+    }
+
+    img {
+      width: 33px;
+      height: 33px;
+    }
+
+    .back-link img {
+      margin-right: 8px;
+    }
+
+    .privacy-policy {
+      margin-bottom: 40px;
+    }
+
+    .title-h2 {
+      margin-bottom: 8px;
+    }
+
+    .policy-text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .info-and-use {
+      margin-bottom: 40px;
+    }
+
+    .info-title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .info-list {
+      list-style-type: disc;
+      margin-left: 30px;
+      margin-bottom: 24px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 36px;
+    }
+
+    .info-text {
+      margin-bottom: 24px;
+    }
+
+    .third-title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .acces-title {
+      margin-bottom: 24px;
+    }
+
+    .application-list {
+      margin-bottom: 24px;
+      text-decoration: underline;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 400;
+    }
+
+    .acces-list {
+      list-style-type: disc;
+      margin-left: 30px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 36px;
+    }
+
+    .acces {
+      margin-bottom: 60px;
+    }
+
+    .opt-out {
+      margin-bottom: 60px;
+    }
+
+    .opt-out-title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .data-policy {
+      margin-bottom: 60px;
+    }
+
+    .data-policy-title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .children-title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .children {
+      margin-bottom: 60px;
+    }
+
+    .security-title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .security {
+      margin-bottom: 60px;
+    }
+
+    .title {
+      text-align: left;
+      text-align: left;
+      font-family: 'Luckiest Guy', serif;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+      margin-bottom: 8px;
+    }
+
+    .mb {
+      margin-bottom: 60px;
+    }
+
+    .info {
+      margin-top: 24px;
+    }
+  }
