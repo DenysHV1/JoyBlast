@@ -1,0 +1,288 @@
+.section {
+  padding: 40px 20px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 36px;
+}
+
+
+.img {
+  margin-right: 8px;
+}
+
+.title {
+  text-align: left;
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  margin-bottom: 8px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.mr-p {
+  margin-bottom: 24px;
+}
+
+.mr {
+  margin-bottom: 8px;
+}
+
+.conditions {
+  margin-bottom: 24px;
+}
+
+.list {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.info-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.changes-conditions {
+  margin-bottom: 24px;
+}
+
+.info {
+  margin-top: 8px;
+}
+
+.title-3 {
+  text-align: left;
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  margin-bottom: 8px;
+}
+
+.span {
+  text-align: left;
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  margin-right: 3px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.cookies-list li:nth-child(3) {
+  margin-top: 15px;
+
+}
+
+.cookies-list li:nth-child(4) {
+  margin-top: 10px;
+
+}
+
+.list-text {
+  text-align: left;
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.choices-link {
+  text-decoration: underline;
+  color: rgb(30, 30, 144);
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 40px 60px;
+  }
+
+  .back-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 66px;
+  }
+
+
+
+  .img {
+    margin-right: 20px;
+    height: 33px;
+    width: 33px;
+  }
+
+  .title {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 24px;
+  }
+
+  .big-title {
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 24px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .mr {
+    margin-bottom: 24px;
+  }
+
+  .mr-p {
+    margin-bottom: 40px;
+  }
+
+  .info-list {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  .list {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .changes-conditions {
+    margin-bottom: 60px;
+  }
+
+  .acces {
+    margin-bottom: 60px;
+  }
+
+  .opt-out {
+    margin-bottom: 60px;
+  }
+
+  .data-policy {
+    margin-bottom: 60px;
+  }
+
+  .children {
+    margin-bottom: 60px;
+  }
+
+  .security {
+    margin-bottom: 60px;
+  }
+
+  .changes {
+    margin-bottom: 60px;
+  }
+
+  .your-consent {
+    margin-bottom: 60px;
+  }
+
+  .conditions {
+    margin-bottom: 60px;
+  }
+
+  .coolies-policy {
+    margin-bottom: 60px;
+  }
+
+  .title-3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .span {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .cookies-list {
+    margin-left: 30px;
+  }
+
+  .list-text {
+    text-align: left;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .use-cookie {
+    margin-bottom: 60px;
+  }
+
+  .your-choices {
+    margin-bottom: 60px;
+  }
+
+  .more-info {
+    margin-bottom: 60px;
+  }
+
+
+  .info {
+    margin-top: 24px;
+  }
+}
