@@ -23,6 +23,7 @@
   "author": "Denys Harkusha <denyagarkusha2@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "swiper": "^11.2.4",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
