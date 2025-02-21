@@ -1,16 +1,15 @@
 .footer {
-  background-color: #1178F3;
+  background-color: #1178f3;
   border-top: 3px solid #ffff;
-  box-shadow: inset 0 7px 5px -1px #95AECD;
+  box-shadow: inset 0 7px 5px -1px #95aecd;
   width: 320px;
   margin: 0 auto;
 }
 
-.container {
+.footer-inner{
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .footer-list {
@@ -24,7 +23,6 @@
   font-size: 12px;
   align-items: center;
   width: 280px;
-
 }
 
 .footer-link span {
@@ -40,15 +38,7 @@
   align-items: center;
 }
 
-
-
-
-
-
-
-
 @media screen and (min-width: 1200px) {
-
   .container {
     display: flex;
     padding-top: 77px;
@@ -69,8 +59,6 @@
     width: 510px;
   }
 
-
-
   .footer-copyright {
     display: flex;
     justify-content: center;
@@ -81,7 +69,7 @@
   }
 
   .footer-list li:nth-child(2)::after {
-    content: "|";
+    content: '|';
     margin: 0 5px;
     color: white;
   }

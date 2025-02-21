@@ -1,25 +1,21 @@
 @import './reset.css';
 
 @import './header.css';
+@import './hero.css';
 @import './benefits.css';
 @import './description.css';
 @import './faq.css';
 @import './gallery.css';
-@import './hero.css';
 @import './reviews.css';
 @import './footer.css';
 @import './uniqueness.css';
 @import './pages.css';
 @import './scroll-up.css';
-@import './cookies-policy.css';
-@import './conditions.css';
-
-
 
 :root {
   background-color: #214067;
-  font-family: "Lora", serif;
-  color: #FFFCE4;
+  font-family: 'Lora', serif;
+  color: #fffce4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
