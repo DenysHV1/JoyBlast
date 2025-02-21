@@ -11,6 +11,8 @@
 @import './uniqueness.css';
 @import './pages.css';
 @import './scroll-up.css';
+@import './cookies-policy.css';
+@import './conditions.css';
 
 
 
@@ -25,7 +27,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.title-h2{
+.title-h2 {
   font-family: 'Luckiest Guy', serif;
   font-weight: 400;
   font-size: 36px;
@@ -42,7 +44,7 @@
   margin: 0 auto;
 }
 
-.header-container{
+.header-container {
   max-width: 400px;
   min-width: 320px;
   margin: 0 auto;
@@ -53,7 +55,7 @@
     max-width: 1200px;
   }
 
-  .header-container{
+  .header-container {
     max-width: 1200px;
   }
 
