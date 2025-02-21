@@ -14,6 +14,7 @@ export const gallery = () => {
           centeredSlides: true,
           loop: true,
           grabCursor: true,
+          spaceBetween: 10,
           speed: 800,
           simulateTouch: true,
           touchRatio: 1,
