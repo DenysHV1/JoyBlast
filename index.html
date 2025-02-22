@@ -26,7 +26,7 @@
     <script type="module" crossorigin src="/JoyBlast/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/JoyBlast/assets/vendor-0619e110.js">
     <link rel="stylesheet" href="/JoyBlast/assets/vendor-b3e3aa0a.css">
-    <link rel="stylesheet" href="/JoyBlast/assets/styles-5257e4ff.css">
+    <link rel="stylesheet" href="/JoyBlast/assets/styles-f9e79d20.css">
   </head>
   <body>
     <header class="header" id="header-id">
@@ -209,41 +209,42 @@
     <section class="gallery" id="gallery-id">
   <div class="container gallery-inner">
     <h2 class="title-h2">Gallery</h2>
-    <div class="swiper">
+    <div class="swiper swiper-gallery">
       <div class="swiper-wrapper">
+
         <div class="swiper-slide">
           <picture>
             <source media="(min-width: 1200px)" srcset="/JoyBlast/assets/help-joi-1x-c825bb03.jpg " />
-            <img src="/JoyBlast/assets/help-mob-1x-fb1859be.jpg" alt="Help" />
+            <img class="swiper-img" src="/JoyBlast/assets/help-mob-1x-fb1859be.jpg" alt="Help" />
           </picture>
         </div>
         <div class="swiper-slide">
           <picture>
             <source media="(min-width: 1200px)" srcset="/JoyBlast/assets/solve-desk-1x-a3e1c7f5.jpg " />
-            <img src="/JoyBlast/assets/solve-mob-1x-7debf58f.jpg" alt="Problem solving" />
+            <img class="swiper-img" src="/JoyBlast/assets/solve-mob-1x-7debf58f.jpg" alt="Problem solving" />
           </picture>
         </div>
         <div class="swiper-slide">
           <picture>
             <source media="(min-width: 1200px)" srcset="/JoyBlast/assets/play-desk-1x-fe743b81.jpg " />
-            <img src="/JoyBlast/assets/play-mob-1x-181865b5.jpg" alt="Gameplay" />
+            <img class="swiper-img" src="/JoyBlast/assets/play-mob-1x-181865b5.jpg" alt="Gameplay" />
           </picture>
         </div>
         <div class="swiper-slide">
           <picture>
             <source media="(min-width: 1200px)" srcset="/JoyBlast/assets/follow-desk-1x-3fdfa815.jpg " />
-            <img src="/JoyBlast/assets/follow-mob-1x-edcaa626.jpg" alt="Following" />
+            <img class="swiper-img" src="/JoyBlast/assets/follow-mob-1x-edcaa626.jpg" alt="Following" />
           </picture>
         </div>
         <div class="swiper-slide">
           <picture>
             <source media="(min-width: 1200px)" srcset="/JoyBlast/assets/blast-desk-1x-f54d5778.jpg " />
-            <img src="/JoyBlast/assets/blast-mob-1x-cd6b0d51.jpg" alt="Blest Bubbles" />
+            <img class="swiper-img" src="/JoyBlast/assets/blast-mob-1x-cd6b0d51.jpg" alt="Blest Bubbles" />
           </picture>
         </div>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-pagination swiper-pagination-gallery"></div>
   </div>
 </section>
     <section class="faq" id="faq-id">
@@ -330,9 +331,97 @@
 </section>
 
     <section class="reviews" id="reviews-id">
-  <div class="container"></div>
-</section>
+  <div class="container reviews-container">
+    <h2 class="title-h2">Reviews</h2>
+    <div class="swiper swiper-reviews">
+      <div class="swiper-wrapper">
 
+        <div class="swiper-slide slider-wrapper">
+          <div class="text-container">
+            <p class="text-overlay">"Joy Blast is my new favorite game! The levels are creative, and the graphics are
+              absolutely stunning. I
+              love
+              how I can play at my own pace and unwind after a long day. Highly recommended!"</p>
+          </div>
+
+          <div class="img-wrap">
+            <img src="/JoyBlast/assets/Icon-Strategy-1-8010489a.png" width="60px" alt="">
+            <div class="name-wrap">
+              <p class="name-p">Emily R.</pз>
+              <p>Casual Gamer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="text-overlay">"The perfect stress-reliever! Joy Blast has bright colors, fun mechanics, and a
+              smooth learning curve.
+              It’s
+              engaging without being frustrating. Love it!"</p>
+          </div>
+
+          <div class="img-wrap">
+            <img src="/JoyBlast/assets/Icon-Strategy-2-a02e840b.png" width="60px" alt="">
+            <div class="name-wrap">
+              <p class="name-p">Sophia L.</p>
+              <p>Relaxation Seeker</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="text-overlay">"I’m addicted! The levels are well-designed, and the power-ups make it super
+              satisfying. I also love the
+              daily events—they keep the game fresh and exciting."</p>
+          </div>
+          <div class="img-wrap">
+            <img src="/JoyBlast/assets/Icon-Strategy-3-8d9f6e2d.png" width="60px" alt="">
+            <div class="name-wrap">
+              <p class="name-p">Daniel M.</p>
+              <p>Puzzle Enthusiast</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="text-overlay">"I always aim for the top of the leaderboard, and Joy Blast gives me plenty of
+              chances to challenge
+              myself.
+              The events and rewards system keeps me coming back. A must-play!"</p>
+          </div>
+
+          <div class="img-wrap">
+            <img src="/JoyBlast/assets/Icon-Strategy-4-832ee6bb.png" width="60px" alt="">
+            <div class="name-wrap">
+              <p class="name-p">Michael T.</p>
+              <p>Competitive Player</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="text-overlay">"I love games with vibrant worlds, and Joy Blast doesn’t disappoint! Each level
+              feels unique, and the
+              animations make
+              every pop satisfying. Can’t get enough of it!"</p>
+          </div>
+          <div class="img-wrap">
+            <img src="/JoyBlast/assets/Icon-Strategy-5-9497fe4a.png" width="60px" alt="">
+            <div class="name-wrap">
+              <p class="name-p">Olivia B.</p>
+              <p>Adventure Lover</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-reviews"></div>
+  </div>
+</section>
     <section class="uniqueness-section" id="uniqueness">
   <div class="container uniqueness-inner">
 
@@ -355,18 +444,18 @@
 </section>
 
     <section class="footer" id="footer-id">
-  <div class="header-container footer-inner">
+  <div class="header-container container footer-inner">
     <ul class="footer-list">
       <li>
         <a href="./privacy-policy.html" target="_blank" class="footer-link">Privacy Policy<span>|</span></a>
       </li>
 
       <li>
-        <a href="/terms-and-conditions.html" target="_blank" class="footer-link">Terms & Conditions</a>
+        <a href="./terms-and-conditions.html" target="_blank" class="footer-link">Terms & Conditions</a>
       </li>
 
       <li>
-        <a href="/cookies-policy.html" target="_blank" class="footer-link">Cookies Policy</a>
+        <a href="./cookies-policy.html" target="_blank" class="footer-link">Cookies Policy</a>
       </li>
     </ul>
 
