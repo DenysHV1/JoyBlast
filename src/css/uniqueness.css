@@ -53,3 +53,48 @@
   color: #f9f2bb;
   text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
 }
+
+@media screen and (min-width: 1200px) {
+  .uniqueness-inner {
+    height: 540px;
+  }
+
+  .uniqueness-title {
+    width: 896px;
+    text-align: center;
+    font-family: 'Luckiest Guy', serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+    margin-bottom: 48px;
+    margin-top: 48px;
+  }
+
+  .border-wrapper {
+    display: flex;
+    align-items: center;
+    height: 284px;
+    width: 896px;
+    padding: 61px 46px;
+    background-color: #214067;
+  }
+
+  .uniqueness-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .uniqueness-span {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .uniqueness-section {
+    margin-bottom: 120px;
+  }
+
+
+}
