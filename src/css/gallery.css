@@ -25,7 +25,7 @@
   align-items: center;
 }
 
-.swiper-slide img {
+.swiper-img {
   object-fit: cover;
   border-radius: 25px;
   width: 100%;

@@ -1,6 +1,5 @@
 .section {
   padding: 40px 20px;
-  width: 320px;
 }
 
 .back-link {
@@ -123,7 +122,7 @@
 
 .choices-link {
   text-decoration: underline;
-  color: rgb(30, 30, 144);
+  color: #3851D8;
 }
 
 

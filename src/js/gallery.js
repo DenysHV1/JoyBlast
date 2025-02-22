@@ -3,12 +3,12 @@ import "swiper/css/bundle";
 import "swiper/css/pagination";
 
 export const gallery = () => {
-  let swiperInstance = null;
+  let gallerySwiper = null;
 
-  const initSwiper = () => {
+  const initGallerySwiper = () => {
     if (window.innerWidth < 1200) {
-      if (!swiperInstance) {
-        swiperInstance = new Swiper(".swiper", {
+      if (!gallerySwiper) {
+        gallerySwiper = new Swiper(".swiper-gallery", { // ✅ Уникальный класс
           slidesPerView: 1,
           slidesPerGroup: 1,
           centeredSlides: true,
@@ -26,23 +26,20 @@ export const gallery = () => {
             onlyInViewport: true,
           },
           pagination: {
-            el: ".swiper-pagination",
+            el: ".swiper-pagination-gallery", // ✅ Уникальный класс пагинации
             type: "bullets",
             clickable: true,
           },
         });
       }
     } else {
-
-      if (swiperInstance) {
-        swiperInstance.destroy(true, true);
-        swiperInstance = null;
+      if (gallerySwiper) {
+        gallerySwiper.destroy(true, true);
+        gallerySwiper = null;
       }
     }
   };
 
-
-  initSwiper();
-
-  window.addEventListener('resize', initSwiper);
+  initGallerySwiper();
+  window.addEventListener("resize", initGallerySwiper);
 };
