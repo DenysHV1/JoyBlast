@@ -1,0 +1,55 @@
+.uniqueness-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(../img/uniqueness/uniqueness-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 24px;
+  border: 5px solid rgba(252, 200, 15, 1);
+  padding: 27px 18px;
+}
+
+.uniqueness-section {
+  margin-bottom: 60px;
+}
+
+.uniqueness-title {
+  width: 280px;
+  text-align: center;
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+  margin-bottom: 32px;
+}
+
+.uniqueness-text {
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+.border-wrapper {
+  height: 284px;
+  width: 280px;
+  border-radius: 16px;
+  border: 5px solid rgba(252, 200, 15, 1);
+  padding: 24px;
+  background-color: #214067;
+  display: block;
+}
+
+.uniqueness-span {
+  font-family: 'Luckiest Guy', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f9f2bb;
+  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
+}
