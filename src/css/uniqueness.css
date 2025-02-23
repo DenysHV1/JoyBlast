@@ -29,18 +29,21 @@
 }
 
 .uniqueness-text {
+  width: 225px;
+  /* height: 235px; */
+  font-weight: 400;
   align-items: center;
   font-size: 14px;
   line-height: 20px;
+  text-align: center;
 
 }
 
 .border-wrapper {
-  height: 284px;
   width: 280px;
   border-radius: 16px;
   border: 5px solid rgba(252, 200, 15, 1);
-  padding: 24px;
+  padding: 24.5px 27.5px;
   background-color: #214067;
   display: block;
 }
