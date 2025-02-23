@@ -3,36 +3,24 @@
   margin-top: 60px;
 }
 
-
 .text-container {
   position: relative;
-  height: 170px;
   background-image: url('../img/reviews/Union.png');
   background-repeat: no-repeat;
   background-size: 280px 170px;
+  width: 280px;
+  height: 170px;
   background-position: center;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 24px;
-  box-sizing: border-box;
-}
-
-
-.text-overlay {
-  position: absolute;
-  text-align: center;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   color: black;
-  padding: 10px;
-  border-radius: 8px;
-  max-width: 90%;
   text-align: left;
-
 }
-
 
 .swiper-slide {
   width: 100%;
@@ -46,7 +34,6 @@
   display: flex;
   align-items: center;
   margin-top: 16px;
-
 }
 
 .name-wrap {
@@ -61,7 +48,7 @@
 }
 
 .swiper-pagination-reviews {
-  margin: -30px;
+  margin-top: -52px;
 }
 
 .reviews-container {
@@ -69,7 +56,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 .swiper-reviews {
@@ -83,35 +69,21 @@
   }
 
   .text-container {
-    position: relative;
-    height: 170px;
+    width: 344px;
+    height: 152px;
     background-image: url('../img/reviews/Union.png');
-    background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-    box-sizing: border-box;
-  }
-
-  .text-overlay {
-    position: absolute;
-    text-align: center;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
-    color: black;
-    padding: 10px;
-    border-radius: 8px;
-    max-width: 90%;
     text-align: left;
+  }
 
+  .swiper-slide {
+    max-width: 344px;
   }
 
   .name-wrap {
-    font-weight: 400px;
     font-size: 16px;
     line-height: 20px;
   }
