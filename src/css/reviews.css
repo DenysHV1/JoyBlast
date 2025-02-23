@@ -27,7 +27,7 @@
   max-width: 320px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .img-wrap {
@@ -48,7 +48,7 @@
 }
 
 .swiper-pagination-reviews {
-  margin-top: -52px;
+  margin-top: -22px;
 }
 
 .reviews-container {
