@@ -8,7 +8,7 @@
   background-size: cover;
   border-radius: 24px;
   border: 5px solid rgba(252, 200, 15, 1);
-  padding: 27px 18px;
+  padding: 27px 20px;
 }
 
 .uniqueness-section {
@@ -16,21 +16,13 @@
 }
 
 .uniqueness-title {
-  width: 280px;
-  text-align: center;
-  font-family: 'Luckiest Guy', serif;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0%;
-  color: rgba(255, 255, 255, 1);
-  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
   margin-bottom: 32px;
+  white-space: nowrap;
 }
 
 .uniqueness-text {
   width: 225px;
-  /* height: 235px; */
+  min-height: 228px;
   font-weight: 400;
   align-items: center;
   font-size: 14px;
@@ -40,12 +32,13 @@
 }
 
 .border-wrapper {
-  width: 280px;
+  display: flex;
   border-radius: 16px;
   border: 5px solid rgba(252, 200, 15, 1);
   padding: 24.5px 27.5px;
   background-color: #214067;
   display: block;
+  text-align: center;
 }
 
 .uniqueness-span {
@@ -54,40 +47,29 @@
   font-size: 14px;
   line-height: 20px;
   color: #f9f2bb;
-  text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
 }
+
 
 @media screen and (min-width: 1200px) {
   .uniqueness-inner {
-    height: 540px;
-  }
-
-  .uniqueness-title {
-    width: 896px;
-    text-align: center;
-    font-family: 'Luckiest Guy', serif;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 64px;
-    letter-spacing: 0%;
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
-    margin-bottom: 48px;
-    margin-top: 48px;
+    padding: 48.5px 0;
   }
 
   .border-wrapper {
     display: flex;
     align-items: center;
-    height: 284px;
+    margin-top: 48px;
     width: 896px;
     padding: 61px 46px;
     background-color: #214067;
+    text-align: start;
   }
 
   .uniqueness-text {
+    width: 804px;
     font-size: 24px;
     line-height: 36px;
+    text-align: left;
   }
 
   .uniqueness-span {
@@ -98,6 +80,4 @@
   .uniqueness-section {
     margin-bottom: 120px;
   }
-
-
 }
