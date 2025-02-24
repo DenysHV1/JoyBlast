@@ -13,6 +13,12 @@
   padding: 27.5px 18px;
 }
 
+@media (min-resolution: 192dpi) {
+  .faq-inner {
+    background-image: url(../img/faq/faq-2x.jpg);
+  }
+}
+
 .faq_list {
   display: flex;
   flex-direction: column;
@@ -42,7 +48,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: rgba(0, 0, 0, 1);
   text-align: start;
 }
@@ -72,7 +78,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: rgba(51, 49, 50, 1);
   margin-left: 5px;
 }
@@ -83,7 +89,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: rgba(51, 49, 50, 1);
 }
 
@@ -96,6 +102,12 @@
   .faq-inner {
     background-image: url(../img/faq/faq-1x.jpg);
     padding: 58px 152px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .faq-inner {
+      background-image: url(../img/faq/faq-2x.jpg);
+    }
   }
 
   .faq_list {

@@ -29,20 +29,20 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   color: rgba(255, 255, 255, 1);
   text-shadow: 0px 4px 5px rgba(1, 13, 28, 1);
 }
 
 .container {
-  max-width: 360px;
+  max-width: 375px;
   min-width: 320px;
   margin: 0 auto;
 }
 
 .header-container {
-  max-width: 400px;
+  max-width: 375px;
   min-width: 320px;
   margin: 0 auto;
 }

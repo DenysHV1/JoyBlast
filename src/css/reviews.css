@@ -1,6 +1,7 @@
 .reviews {
   margin-bottom: 60px;
   margin-top: 60px;
+  scroll-margin-top: 70px;
 }
 
 .text-container {
@@ -36,9 +37,14 @@
   margin-top: 16px;
 }
 
+.img-wrap > img {
+  width: 60px;
+  height: 60px;
+}
+
 .name-wrap {
   margin-left: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
 }
@@ -66,6 +72,7 @@
   .reviews {
     margin-bottom: 120px;
     margin-top: 120px;
+    scroll-margin-top: 120px;
   }
 
   .text-container {

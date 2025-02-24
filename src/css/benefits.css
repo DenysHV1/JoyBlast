@@ -47,7 +47,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   text-shadow: -2px -2px 0 rgba(122, 5, 7, 1), 2px -2px 0 rgba(122, 5, 7, 1),
     -2px 2px 0 rgba(122, 5, 7, 1), 2px 2px 0 rgba(122, 5, 7, 1);
@@ -58,7 +58,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   color: rgba(255, 252, 228, 1);
 }

@@ -11,8 +11,15 @@
   padding: 27px 20px;
 }
 
+@media (min-resolution: 192dpi) {
+  .uniqueness-inner {
+    background-image: url(../img/uniqueness/uniqueness-2x.jpg);
+  }
+}
+
 .uniqueness-section {
   margin-bottom: 60px;
+  scroll-margin-top: 60px;
 }
 
 .uniqueness-title {
@@ -22,20 +29,18 @@
 
 .uniqueness-text {
   width: 225px;
-  min-height: 228px;
   font-weight: 400;
   align-items: center;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-
 }
 
 .border-wrapper {
   display: flex;
   border-radius: 16px;
   border: 5px solid rgba(252, 200, 15, 1);
-  padding: 24.5px 27.5px;
+  padding: 19.5px 22.5px;
   background-color: #214067;
   display: block;
   text-align: center;
@@ -49,7 +54,6 @@
   color: #f9f2bb;
 }
 
-
 @media screen and (min-width: 1200px) {
   .uniqueness-inner {
     padding: 48.5px 0;
@@ -60,7 +64,7 @@
     align-items: center;
     margin-top: 48px;
     width: 896px;
-    padding: 61px 46px;
+    padding: 56px 41px;
     background-color: #214067;
     text-align: start;
   }
@@ -79,5 +83,6 @@
 
   .uniqueness-section {
     margin-bottom: 120px;
+    scroll-margin-top: 110px;
   }
 }
